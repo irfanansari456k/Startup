@@ -272,7 +272,7 @@ function App() {
   }
 
   const orderMessage = validWeight && total !== null
-    ? `Salam Arif Bhai, please keep ${Number(weight).toFixed(1)} kg ${product.name} ready. I understand the estimate of ₹${rupees.format(total)} is not a confirmed final bill.`
+    ? `Please keep ${Number(weight).toFixed(1)} kg ${product.name} ready. I understand the estimate of ₹${rupees.format(total)} is not a confirmed final bill.`
     : ''
 
   async function handleAdminLogin(event) {
@@ -385,7 +385,7 @@ function App() {
             <a className="button button-outline button-compact" href={`tel:${phone}`}>☎ <span>Call hotline</span></a>
             <a
               className="button button-primary button-compact"
-              href={whatsappUrl('Salam Arif Bhai, I want to order chicken from Taj Chicken Shop.')}
+              href={whatsappUrl('I want to order chicken from Taj Chicken Shop.')}
               target="_blank"
               rel="noreferrer"
             >
@@ -417,7 +417,7 @@ function App() {
                 <a className="button button-primary" href="#daily-rates">▤ Check today’s rates <span lang="hi">(आज का भाव)</span></a>
                 <a
                   className="button button-outline"
-                  href={whatsappUrl("Salam Arif Bhai, what's today's chicken rate?")}
+                  href={whatsappUrl("What's today's chicken rate?")}
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -569,7 +569,7 @@ function App() {
                 <div><span>02</span><p><strong>Whole garam masala</strong>Cardamom, cloves, cinnamon, star anise, and more.</p></div>
                 <div><span>03</span><p><strong>Clear pack pricing</strong>Prices vary by brand and pack size. Check the MRP in-store.</p></div>
               </div>
-              <a className="button button-outline" href={whatsappUrl('Salam Arif Bhai, please add one chicken masala pack to my order.')} target="_blank" rel="noreferrer">＋ Add masala to WhatsApp order</a>
+              <a className="button button-outline" href={whatsappUrl('Please add one chicken masala pack to my order.')} target="_blank" rel="noreferrer">＋ Add masala to WhatsApp order</a>
             </div>
             <div className="spice-visual" aria-label="Chicken masala and whole spices">
               <div className="spice-bowl bowl-one"><span>✹</span><small>GARAM MASALA</small></div>
@@ -658,7 +658,7 @@ function App() {
           </div>
         </div>
       </footer>
-      <div className="mobile-order-bar"><a href={whatsappUrl('Salam Arif Bhai, I want to order chicken from Taj Chicken Shop.')} target="_blank" rel="noreferrer">▣ Order on WhatsApp</a><a href={`tel:${phone}`}>☎ Call</a></div>
+      <div className="mobile-order-bar"><a href={whatsappUrl('I want to order chicken from Taj Chicken Shop.')} target="_blank" rel="noreferrer">▣ Order on WhatsApp</a><a href={`tel:${phone}`}>☎ Call</a></div>
       <dialog
         className="editor-dialog"
         ref={editorDialogRef}
