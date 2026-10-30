@@ -75,7 +75,7 @@ const cuts = [
 ]
 
 const phone = '+918085515659'
-const whatsapp = '919589978383'
+const whatsapp = '918085515659'
 const mapsUrl = 'https://maps.google.com/?q=Umariya+Isra+Chhindwara'
 const rupees = new Intl.NumberFormat('en-IN')
 const referenceRates = Object.fromEntries(products.map((item) => [item.id, item.referencePrice]))
@@ -617,7 +617,7 @@ function App() {
                 <span className="section-kicker">Proprietor contact</span>
                 <h3>Arif Bhai</h3>
                 <a href={`tel:${phone}`}>+91 80855 15659</a>
-                <p>WhatsApp quick orders<br /><strong>+91 95899 78383</strong></p>
+                <p>WhatsApp quick orders<br /><strong>+91 80855 15659</strong></p>
                 <span className="payment-note">UPI accepted · PhonePe · Google Pay · Paytm · Cash</span>
               </article>
             </div>
